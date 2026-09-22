@@ -6,10 +6,6 @@ Official public release repository for **Xuro**, a local-first Markdown notes ap
 
 ## Download
 
-- **Official website:** https://usexuro.app/download
-- **Changelog:** https://usexuro.app/changelog
-- **Releases:** https://github.com/Wooinxlkz/Xuro-Releases/releases
-
 Download Xuro only from the official website or this repository's GitHub Releases page.
 
 ## What is Xuro?
