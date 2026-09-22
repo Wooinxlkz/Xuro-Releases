@@ -1,0 +1,1263 @@
+# Third-party licenses
+
+Xuro is built with open-source software. Each component remains under its own license, which applies to that component; nothing in the Xuro license limits your rights under them.
+
+Generated 2026-09-21 by scripts/generate-third-party-licenses.mjs from package-lock.json, site/package-lock.json and src-tauri/Cargo.lock. Regenerate after changing dependencies.
+
+## Attention items
+
+Weak-copyleft, attribution, or unrecorded licenses that deserve a human look before each release. Using them unmodified as dependencies is generally fine, but their notices must be preserved.
+
+- dompurify@3.4.15 — (MPL-2.0 OR Apache-2.0) (desktop app)
+- lightningcss@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-android-arm64@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-darwin-arm64@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-darwin-x64@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-freebsd-x64@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-linux-arm-gnueabihf@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-linux-arm64-gnu@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-linux-arm64-musl@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-linux-x64-gnu@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-linux-x64-musl@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-win32-arm64-msvc@1.32.0 — MPL-2.0 (desktop app)
+- lightningcss-win32-x64-msvc@1.32.0 — MPL-2.0 (desktop app)
+- p5@1.11.13 — LGPL-2.1 (desktop app)
+- @img/sharp-libvips-darwin-arm64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-darwin-x64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-arm@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-arm64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-ppc64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-riscv64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-s390x@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linux-x64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linuxmusl-arm64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-libvips-linuxmusl-x64@1.3.3 — LGPL-3.0-or-later (website)
+- @img/sharp-wasm32@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later AND MIT (website)
+- @img/sharp-win32-arm64@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later (website)
+- @img/sharp-win32-ia32@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later (website)
+- @img/sharp-win32-x64@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later (website)
+- caniuse-lite@1.0.30001810 — CC-BY-4.0 (website)
+- fuzzy@0.1.3 — UNKNOWN (desktop app)
+- khroma@2.1.0 — UNKNOWN (desktop app)
+
+## Desktop app (npm, production dependencies)
+
+450 packages. MIT: 364, ISC: 40, Apache-2.0: 12, MPL-2.0: 12, BSD-3-Clause: 8, OFL-1.1: 2, UNKNOWN: 2, (MIT AND Zlib): 2, Apache-2.0 OR MIT: 1, MIT OR Apache-2.0: 1, (MPL-2.0 OR Apache-2.0): 1, CC0-1.0: 1, LGPL-2.1: 1, MIT OR SEE LICENSE IN FEEL-FREE.md: 1, Unlicense: 1, 0BSD: 1
+
+- @antfu/install-pkg@2.0.1 — MIT
+- @babel/runtime@7.29.7 — MIT
+- @braintree/sanitize-url@6.0.2 — MIT
+- @braintree/sanitize-url@7.1.2 — MIT
+- @chevrotain/cst-dts-gen@11.0.3 — Apache-2.0
+- @chevrotain/gast@11.0.3 — Apache-2.0
+- @chevrotain/regexp-to-ast@11.0.3 — Apache-2.0
+- @chevrotain/types@11.0.3 — Apache-2.0
+- @chevrotain/types@11.1.2 — Apache-2.0
+- @chevrotain/utils@11.0.3 — Apache-2.0
+- @codemirror/autocomplete@6.20.3 — MIT
+- @codemirror/commands@6.11.0 — MIT
+- @codemirror/lang-css@6.3.1 — MIT
+- @codemirror/lang-html@6.4.12 — MIT
+- @codemirror/lang-javascript@6.2.5 — MIT
+- @codemirror/lang-markdown@6.5.2 — MIT
+- @codemirror/language@6.12.4 — MIT
+- @codemirror/lint@6.9.7 — MIT
+- @codemirror/state@6.7.4 — MIT
+- @codemirror/view@6.43.11 — MIT
+- @dnd-kit/accessibility@3.1.1 — MIT
+- @dnd-kit/core@6.3.1 — MIT
+- @dnd-kit/utilities@3.2.2 — MIT
+- @excalidraw/excalidraw@0.18.1 — MIT
+- @excalidraw/laser-pointer@1.3.1 — MIT
+- @excalidraw/markdown-to-text@0.1.2 — MIT
+- @excalidraw/mermaid-to-excalidraw@2.2.2 — MIT
+- @excalidraw/random-username@1.1.0 — MIT
+- @floating-ui/core@1.8.0 — MIT
+- @floating-ui/dom@1.8.0 — MIT
+- @floating-ui/react-dom@2.1.9 — MIT
+- @floating-ui/utils@0.2.12 — MIT
+- @fontsource-variable/inter@5.3.0 — OFL-1.1
+- @fontsource-variable/jetbrains-mono@5.3.0 — OFL-1.1
+- @iconify/types@2.0.0 — MIT
+- @iconify/utils@3.1.7 — MIT
+- @jridgewell/gen-mapping@0.3.13 — MIT
+- @jridgewell/remapping@2.3.5 — MIT
+- @jridgewell/resolve-uri@3.1.2 — MIT
+- @jridgewell/sourcemap-codec@1.6.0 — MIT
+- @jridgewell/trace-mapping@0.3.31 — MIT
+- @lezer/common@1.5.2 — MIT
+- @lezer/css@1.3.6 — MIT
+- @lezer/highlight@1.2.3 — MIT
+- @lezer/html@1.3.13 — MIT
+- @lezer/javascript@1.5.4 — MIT
+- @lezer/lr@1.4.10 — MIT
+- @lezer/markdown@1.7.2 — MIT
+- @marijn/find-cluster-break@1.0.4 — MIT
+- @mermaid-js/parser@0.6.3 — MIT
+- @mermaid-js/parser@1.2.1 — MIT
+- @napi-rs/canvas@0.1.100 — MIT
+- @napi-rs/canvas-android-arm64@0.1.100 — MIT
+- @napi-rs/canvas-darwin-arm64@0.1.100 — MIT
+- @napi-rs/canvas-darwin-x64@0.1.100 — MIT
+- @napi-rs/canvas-linux-arm-gnueabihf@0.1.100 — MIT
+- @napi-rs/canvas-linux-arm64-gnu@0.1.100 — MIT
+- @napi-rs/canvas-linux-arm64-musl@0.1.100 — MIT
+- @napi-rs/canvas-linux-riscv64-gnu@0.1.100 — MIT
+- @napi-rs/canvas-linux-x64-gnu@0.1.100 — MIT
+- @napi-rs/canvas-linux-x64-musl@0.1.100 — MIT
+- @napi-rs/canvas-win32-arm64-msvc@0.1.100 — MIT
+- @napi-rs/canvas-win32-x64-msvc@0.1.100 — MIT
+- @radix-ui/primitive@1.0.0 — MIT
+- @radix-ui/primitive@1.0.0 — MIT
+- @radix-ui/primitive@1.1.1 — MIT
+- @radix-ui/primitive@1.1.7 — MIT
+- @radix-ui/react-arrow@1.1.2 — MIT
+- @radix-ui/react-collection@1.0.1 — MIT
+- @radix-ui/react-compose-refs@1.0.0 — MIT
+- @radix-ui/react-compose-refs@1.0.0 — MIT
+- @radix-ui/react-compose-refs@1.0.0 — MIT
+- @radix-ui/react-compose-refs@1.1.1 — MIT
+- @radix-ui/react-compose-refs@1.1.5 — MIT
+- @radix-ui/react-context@1.0.0 — MIT
+- @radix-ui/react-context@1.0.0 — MIT
+- @radix-ui/react-context@1.0.0 — MIT
+- @radix-ui/react-context@1.1.1 — MIT
+- @radix-ui/react-context@1.2.2 — MIT
+- @radix-ui/react-dialog@1.1.23 — MIT
+- @radix-ui/react-direction@1.0.0 — MIT
+- @radix-ui/react-dismissable-layer@1.1.19 — MIT
+- @radix-ui/react-dismissable-layer@1.1.5 — MIT
+- @radix-ui/react-focus-guards@1.1.1 — MIT
+- @radix-ui/react-focus-guards@1.1.6 — MIT
+- @radix-ui/react-focus-scope@1.1.16 — MIT
+- @radix-ui/react-focus-scope@1.1.2 — MIT
+- @radix-ui/react-id@1.0.0 — MIT
+- @radix-ui/react-id@1.0.0 — MIT
+- @radix-ui/react-id@1.1.0 — MIT
+- @radix-ui/react-id@1.1.4 — MIT
+- @radix-ui/react-popover@1.1.6 — MIT
+- @radix-ui/react-popper@1.2.2 — MIT
+- @radix-ui/react-portal@1.1.17 — MIT
+- @radix-ui/react-portal@1.1.4 — MIT
+- @radix-ui/react-presence@1.0.0 — MIT
+- @radix-ui/react-presence@1.1.10 — MIT
+- @radix-ui/react-presence@1.1.2 — MIT
+- @radix-ui/react-primitive@1.0.1 — MIT
+- @radix-ui/react-primitive@1.0.1 — MIT
+- @radix-ui/react-primitive@1.0.1 — MIT
+- @radix-ui/react-primitive@2.0.2 — MIT
+- @radix-ui/react-primitive@2.1.10 — MIT
+- @radix-ui/react-roving-focus@1.0.2 — MIT
+- @radix-ui/react-slot@1.0.1 — MIT
+- @radix-ui/react-slot@1.0.1 — MIT
+- @radix-ui/react-slot@1.0.1 — MIT
+- @radix-ui/react-slot@1.1.2 — MIT
+- @radix-ui/react-slot@1.3.3 — MIT
+- @radix-ui/react-tabs@1.0.2 — MIT
+- @radix-ui/react-use-callback-ref@1.0.0 — MIT
+- @radix-ui/react-use-callback-ref@1.0.0 — MIT
+- @radix-ui/react-use-callback-ref@1.1.0 — MIT
+- @radix-ui/react-use-callback-ref@1.1.4 — MIT
+- @radix-ui/react-use-controllable-state@1.0.0 — MIT
+- @radix-ui/react-use-controllable-state@1.0.0 — MIT
+- @radix-ui/react-use-controllable-state@1.1.0 — MIT
+- @radix-ui/react-use-controllable-state@1.2.6 — MIT
+- @radix-ui/react-use-effect-event@0.0.5 — MIT
+- @radix-ui/react-use-escape-keydown@1.1.0 — MIT
+- @radix-ui/react-use-layout-effect@1.0.0 — MIT
+- @radix-ui/react-use-layout-effect@1.0.0 — MIT
+- @radix-ui/react-use-layout-effect@1.1.0 — MIT
+- @radix-ui/react-use-layout-effect@1.1.4 — MIT
+- @radix-ui/react-use-layout-effect@1.1.4 — MIT
+- @radix-ui/react-use-rect@1.1.0 — MIT
+- @radix-ui/react-use-size@1.1.0 — MIT
+- @radix-ui/rect@1.1.0 — MIT
+- @tailwindcss/node@4.3.3 — MIT
+- @tailwindcss/oxide@4.3.3 — MIT
+- @tailwindcss/oxide-android-arm64@4.3.3 — MIT
+- @tailwindcss/oxide-darwin-arm64@4.3.3 — MIT
+- @tailwindcss/oxide-darwin-x64@4.3.3 — MIT
+- @tailwindcss/oxide-freebsd-x64@4.3.3 — MIT
+- @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 — MIT
+- @tailwindcss/oxide-linux-arm64-gnu@4.3.3 — MIT
+- @tailwindcss/oxide-linux-arm64-musl@4.3.3 — MIT
+- @tailwindcss/oxide-linux-x64-gnu@4.3.3 — MIT
+- @tailwindcss/oxide-linux-x64-musl@4.3.3 — MIT
+- @tailwindcss/oxide-wasm32-wasi@4.3.3 — MIT
+- @tailwindcss/oxide-win32-arm64-msvc@4.3.3 — MIT
+- @tailwindcss/oxide-win32-x64-msvc@4.3.3 — MIT
+- @tailwindcss/vite@4.3.3 — MIT
+- @tanstack/query-core@5.102.8 — MIT
+- @tanstack/react-query@5.102.8 — MIT
+- @tauri-apps/api@2.11.1 — Apache-2.0 OR MIT
+- @tauri-apps/plugin-opener@2.5.5 — MIT OR Apache-2.0
+- @tiptap/core@3.31.3 — MIT
+- @tiptap/extension-blockquote@3.31.3 — MIT
+- @tiptap/extension-bold@3.31.3 — MIT
+- @tiptap/extension-bubble-menu@3.31.3 — MIT
+- @tiptap/extension-bullet-list@3.31.3 — MIT
+- @tiptap/extension-code@3.31.3 — MIT
+- @tiptap/extension-code-block@3.23.6 — MIT
+- @tiptap/extension-code-block@3.31.3 — MIT
+- @tiptap/extension-document@3.31.3 — MIT
+- @tiptap/extension-dropcursor@3.31.3 — MIT
+- @tiptap/extension-floating-menu@3.31.3 — MIT
+- @tiptap/extension-gapcursor@3.31.3 — MIT
+- @tiptap/extension-hard-break@3.31.3 — MIT
+- @tiptap/extension-heading@3.31.3 — MIT
+- @tiptap/extension-horizontal-rule@3.31.3 — MIT
+- @tiptap/extension-image@3.31.3 — MIT
+- @tiptap/extension-italic@3.31.3 — MIT
+- @tiptap/extension-link@3.31.3 — MIT
+- @tiptap/extension-list@3.31.3 — MIT
+- @tiptap/extension-list-item@3.31.3 — MIT
+- @tiptap/extension-list-keymap@3.31.3 — MIT
+- @tiptap/extension-mathematics@3.31.3 — MIT
+- @tiptap/extension-ordered-list@3.31.3 — MIT
+- @tiptap/extension-paragraph@3.31.3 — MIT
+- @tiptap/extension-placeholder@3.31.3 — MIT
+- @tiptap/extension-strike@3.31.3 — MIT
+- @tiptap/extension-table@3.31.3 — MIT
+- @tiptap/extension-table-cell@3.31.3 — MIT
+- @tiptap/extension-table-header@3.31.3 — MIT
+- @tiptap/extension-table-row@3.31.3 — MIT
+- @tiptap/extension-task-item@3.31.3 — MIT
+- @tiptap/extension-task-list@3.31.3 — MIT
+- @tiptap/extension-text@3.31.3 — MIT
+- @tiptap/extension-text-style@3.23.6 — MIT
+- @tiptap/extension-typography@3.31.3 — MIT
+- @tiptap/extension-underline@3.31.3 — MIT
+- @tiptap/extensions@3.31.3 — MIT
+- @tiptap/markdown@3.23.6 — MIT
+- @tiptap/pm@3.31.3 — MIT
+- @tiptap/react@3.31.3 — MIT
+- @tiptap/starter-kit@3.31.3 — MIT
+- @types/d3@7.4.3 — MIT
+- @types/d3-array@3.2.2 — MIT
+- @types/d3-axis@3.0.6 — MIT
+- @types/d3-brush@3.0.6 — MIT
+- @types/d3-chord@3.0.6 — MIT
+- @types/d3-color@3.1.3 — MIT
+- @types/d3-contour@3.0.6 — MIT
+- @types/d3-delaunay@6.0.4 — MIT
+- @types/d3-dispatch@3.0.7 — MIT
+- @types/d3-drag@3.0.7 — MIT
+- @types/d3-dsv@3.0.7 — MIT
+- @types/d3-ease@3.0.2 — MIT
+- @types/d3-fetch@3.0.7 — MIT
+- @types/d3-force@3.0.10 — MIT
+- @types/d3-format@3.0.4 — MIT
+- @types/d3-geo@3.1.1 — MIT
+- @types/d3-hierarchy@3.1.7 — MIT
+- @types/d3-interpolate@3.0.4 — MIT
+- @types/d3-path@3.1.1 — MIT
+- @types/d3-polygon@3.0.2 — MIT
+- @types/d3-quadtree@3.0.6 — MIT
+- @types/d3-random@3.0.4 — MIT
+- @types/d3-scale@4.0.9 — MIT
+- @types/d3-scale-chromatic@3.1.0 — MIT
+- @types/d3-selection@3.0.11 — MIT
+- @types/d3-shape@3.2.0 — MIT
+- @types/d3-time@3.0.4 — MIT
+- @types/d3-time-format@4.0.3 — MIT
+- @types/d3-timer@3.0.2 — MIT
+- @types/d3-transition@3.0.9 — MIT
+- @types/d3-zoom@3.0.8 — MIT
+- @types/geojson@7946.0.16 — MIT
+- @types/pako@2.0.4 — MIT
+- @types/raf@3.4.3 — MIT
+- @types/trusted-types@2.0.7 — MIT
+- @types/use-sync-external-store@0.0.6 — MIT
+- @upsetjs/venn.js@2.0.0 — MIT
+- anymatch@3.1.3 — ISC
+- aria-hidden@1.2.6 — MIT
+- base64-arraybuffer@1.0.2 — MIT
+- binary-extensions@2.3.0 — MIT
+- braces@3.0.3 — MIT
+- browser-fs-access@0.29.1 — Apache-2.0
+- canvas-roundrect-polyfill@0.0.1 — MIT
+- canvg@3.0.11 — MIT
+- chevrotain@11.0.3 — Apache-2.0
+- chevrotain-allstar@0.3.1 — MIT
+- chokidar@3.6.0 — MIT
+- clsx@1.1.1 — MIT
+- clsx@2.1.1 — MIT
+- cmdk@1.1.1 — MIT
+- commander@7.2.0 — MIT
+- commander@8.3.0 — MIT
+- core-js@3.50.0 — MIT
+- cose-base@1.0.3 — MIT
+- cose-base@2.2.0 — MIT
+- crc-32@0.3.0 — Apache-2.0
+- crelt@1.0.7 — MIT
+- cross-env@7.0.3 — MIT
+- cross-spawn@7.0.6 — MIT
+- css-line-break@2.1.0 — MIT
+- cytoscape@3.34.3 — MIT
+- cytoscape-cose-bilkent@4.1.0 — MIT
+- cytoscape-fcose@2.2.0 — MIT
+- d3@7.9.0 — ISC
+- d3-array@2.12.1 — BSD-3-Clause
+- d3-array@3.2.4 — ISC
+- d3-axis@3.0.0 — ISC
+- d3-brush@3.0.0 — ISC
+- d3-chord@3.0.1 — ISC
+- d3-color@3.1.0 — ISC
+- d3-contour@4.0.2 — ISC
+- d3-delaunay@6.0.4 — ISC
+- d3-dispatch@3.0.1 — ISC
+- d3-drag@3.0.0 — ISC
+- d3-dsv@3.0.1 — ISC
+- d3-ease@3.0.1 — BSD-3-Clause
+- d3-fetch@3.0.1 — ISC
+- d3-force@3.0.0 — ISC
+- d3-format@3.1.2 — ISC
+- d3-geo@3.1.1 — ISC
+- d3-hierarchy@3.1.2 — ISC
+- d3-interpolate@3.0.1 — ISC
+- d3-path@1.0.9 — BSD-3-Clause
+- d3-path@3.1.0 — ISC
+- d3-polygon@3.0.1 — ISC
+- d3-quadtree@3.0.1 — ISC
+- d3-random@3.0.1 — ISC
+- d3-sankey@0.12.3 — BSD-3-Clause
+- d3-scale@4.0.2 — ISC
+- d3-scale-chromatic@3.1.0 — ISC
+- d3-selection@3.0.0 — ISC
+- d3-shape@1.3.7 — BSD-3-Clause
+- d3-shape@3.2.0 — ISC
+- d3-time@3.1.0 — ISC
+- d3-time-format@4.1.0 — ISC
+- d3-timer@3.0.1 — ISC
+- d3-transition@3.0.1 — ISC
+- d3-zoom@3.0.0 — ISC
+- dagre-d3-es@7.0.14 — MIT
+- dayjs@1.11.23 — MIT
+- delaunator@5.1.0 — ISC
+- detect-libc@2.1.2 — Apache-2.0
+- detect-node-es@1.1.0 — MIT
+- dompurify@3.4.15 — (MPL-2.0 OR Apache-2.0)
+- enhanced-resolve@5.24.5 — MIT
+- es-toolkit@1.52.0 — MIT
+- es6-promise-pool@2.5.0 — MIT
+- fast-equals@5.4.2 — MIT
+- fast-png@6.4.0 — MIT
+- fastdom@1.0.12 — MIT
+- fflate@0.8.3 — MIT
+- fill-range@7.1.1 — MIT
+- fractional-indexing@3.2.0 — CC0-1.0
+- framer-motion@12.43.0 — MIT
+- fsevents@2.3.3 — MIT
+- fuzzy@0.1.3 — UNKNOWN
+- get-nonce@1.0.1 — MIT
+- glob-parent@5.1.2 — ISC
+- glur@1.1.2 — MIT
+- graceful-fs@4.2.11 — ISC
+- hachure-fill@0.5.2 — MIT
+- highlight.js@11.12.0 — BSD-3-Clause
+- html2canvas@1.4.1 — MIT
+- html2pdf.js@0.14.0 — MIT
+- iconv-lite@0.6.3 — MIT
+- image-blob-reduce@3.0.1 — MIT
+- immutable@4.3.9 — MIT
+- import-meta-resolve@4.2.0 — MIT
+- inherits@2.0.4 — ISC
+- internmap@1.0.1 — ISC
+- internmap@2.0.3 — ISC
+- iobuffer@5.4.0 — MIT
+- is-binary-path@2.1.0 — MIT
+- is-extglob@2.1.1 — MIT
+- is-glob@4.0.3 — MIT
+- is-number@7.0.0 — MIT
+- isexe@2.0.0 — ISC
+- jiti@2.7.0 — MIT
+- jotai@2.11.0 — MIT
+- jotai-scope@0.7.2 — MIT
+- jspdf@4.2.1 — MIT
+- katex@0.16.47 — MIT
+- khroma@2.1.0 — UNKNOWN
+- langium@3.3.1 — MIT
+- layout-base@1.0.2 — MIT
+- layout-base@2.0.1 — MIT
+- lightningcss@1.32.0 — MPL-2.0
+- lightningcss-android-arm64@1.32.0 — MPL-2.0
+- lightningcss-darwin-arm64@1.32.0 — MPL-2.0
+- lightningcss-darwin-x64@1.32.0 — MPL-2.0
+- lightningcss-freebsd-x64@1.32.0 — MPL-2.0
+- lightningcss-linux-arm-gnueabihf@1.32.0 — MPL-2.0
+- lightningcss-linux-arm64-gnu@1.32.0 — MPL-2.0
+- lightningcss-linux-arm64-musl@1.32.0 — MPL-2.0
+- lightningcss-linux-x64-gnu@1.32.0 — MPL-2.0
+- lightningcss-linux-x64-musl@1.32.0 — MPL-2.0
+- lightningcss-win32-arm64-msvc@1.32.0 — MPL-2.0
+- lightningcss-win32-x64-msvc@1.32.0 — MPL-2.0
+- linkifyjs@4.3.3 — MIT
+- lodash-es@4.18.1 — MIT
+- lodash.debounce@4.0.8 — MIT
+- lodash.throttle@4.1.1 — MIT
+- lucide-react@1.43.0 — ISC
+- magic-string@0.30.21 — MIT
+- marked@16.4.2 — MIT
+- marked@17.0.6 — MIT
+- mermaid@11.17.2 — MIT
+- motion@12.43.0 — MIT
+- motion-dom@12.43.0 — MIT
+- motion-utils@12.39.0 — MIT
+- multimath@2.0.0 — MIT
+- nanoid@5.1.16 — MIT
+- normalize-path@3.0.0 — MIT
+- object-assign@4.1.1 — MIT
+- open-color@1.9.1 — MIT
+- orderedmap@2.1.1 — MIT
+- p5@1.11.13 — LGPL-2.1
+- package-manager-detector@1.8.0 — MIT
+- pako@2.0.3 — (MIT AND Zlib)
+- pako@2.2.0 — (MIT AND Zlib)
+- path-data-parser@0.1.0 — MIT
+- path-key@3.1.1 — MIT
+- pdfjs-dist@4.10.38 — Apache-2.0
+- perfect-freehand@1.2.0 — MIT
+- performance-now@2.1.0 — MIT
+- pica@7.1.1 — MIT
+- picomatch@2.3.2 — MIT
+- png-chunk-text@1.0.0 — MIT
+- png-chunks-encode@1.0.0 — MIT
+- png-chunks-extract@1.0.0 — MIT
+- points-on-curve@0.2.0 — MIT
+- points-on-curve@0.2.0 — MIT
+- points-on-curve@0.2.0 — MIT
+- points-on-curve@1.0.1 — MIT
+- points-on-path@0.2.1 — MIT
+- prosemirror-changeset@2.4.2 — MIT
+- prosemirror-commands@1.7.2 — MIT
+- prosemirror-dropcursor@1.8.3 — MIT
+- prosemirror-gapcursor@1.4.1 — MIT
+- prosemirror-history@1.5.0 — MIT
+- prosemirror-inputrules@1.5.1 — MIT
+- prosemirror-keymap@1.2.3 — MIT
+- prosemirror-model@1.25.11 — MIT
+- prosemirror-schema-list@1.5.1 — MIT
+- prosemirror-state@1.4.4 — MIT
+- prosemirror-tables@1.8.5 — MIT
+- prosemirror-transform@1.12.1 — MIT
+- prosemirror-view@1.42.3 — MIT
+- pwacompat@2.0.17 — Apache-2.0
+- raf@3.4.1 — MIT
+- react@19.3.0 — MIT
+- react-dom@19.3.0 — MIT
+- react-remove-scroll@2.7.2 — MIT
+- react-remove-scroll-bar@2.3.8 — MIT
+- react-style-singleton@2.2.3 — MIT
+- readdirp@3.6.0 — MIT
+- regenerator-runtime@0.13.11 — MIT
+- rgbcolor@1.0.1 — MIT OR SEE LICENSE IN FEEL-FREE.md
+- robust-predicates@3.0.3 — Unlicense
+- rope-sequence@1.3.4 — MIT
+- roughjs@4.6.4 — MIT
+- roughjs@4.6.6 — MIT
+- rw@1.3.3 — BSD-3-Clause
+- safer-buffer@2.1.2 — MIT
+- sass@1.51.0 — MIT
+- scheduler@0.28.0 — MIT
+- shebang-command@2.0.0 — MIT
+- shebang-regex@3.0.0 — MIT
+- sliced@1.0.1 — MIT
+- sonner@2.0.8 — MIT
+- source-map-js@1.2.1 — BSD-3-Clause
+- stackblur-canvas@2.7.0 — MIT
+- strictdom@1.0.1 — MIT
+- style-mod@4.1.3 — MIT
+- stylis@4.4.0 — MIT
+- svg-pathdata@6.0.3 — MIT
+- tailwind-merge@3.6.0 — MIT
+- tailwindcss@4.3.3 — MIT
+- tapable@2.3.3 — MIT
+- text-segmentation@1.0.3 — MIT
+- tinyexec@1.3.1 — MIT
+- to-regex-range@5.0.1 — MIT
+- ts-dedent@2.3.0 — MIT
+- tslib@2.8.1 — 0BSD
+- tunnel-rat@0.1.2 — MIT
+- use-callback-ref@1.3.3 — MIT
+- use-sidecar@1.1.3 — MIT
+- use-sync-external-store@1.7.0 — MIT
+- utrie@1.0.2 — MIT
+- uuid@14.0.2 — MIT
+- vscode-jsonrpc@8.2.0 — MIT
+- vscode-languageserver@9.0.1 — MIT
+- vscode-languageserver-protocol@3.17.5 — MIT
+- vscode-languageserver-textdocument@1.0.14 — MIT
+- vscode-languageserver-types@3.17.5 — MIT
+- vscode-uri@3.0.8 — MIT
+- w3c-keyname@2.2.8 — MIT
+- webworkify@1.5.0 — MIT
+- which@2.0.2 — ISC
+- zustand@4.5.7 — MIT
+- zustand@5.0.15 — MIT
+
+## Website (npm, production dependencies)
+
+162 packages. MIT: 124, Apache-2.0: 15, LGPL-3.0-or-later: 10, ISC: 4, Apache-2.0 AND LGPL-3.0-or-later: 3, Apache-2.0 AND LGPL-3.0-or-later AND MIT: 1, CC-BY-4.0: 1, SIL OPEN FONT LICENSE: 1, Unlicense: 1, BSD-3-Clause: 1, 0BSD: 1
+
+- @emnapi/runtime@1.11.3 — MIT
+- @img/colour@1.1.0 — MIT
+- @img/sharp-darwin-arm64@0.35.4 — Apache-2.0
+- @img/sharp-darwin-x64@0.35.4 — Apache-2.0
+- @img/sharp-freebsd-wasm32@0.35.4 — Apache-2.0
+- @img/sharp-libvips-darwin-arm64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-darwin-x64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-arm@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-arm64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-ppc64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-riscv64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-s390x@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linux-x64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linuxmusl-arm64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-libvips-linuxmusl-x64@1.3.3 — LGPL-3.0-or-later
+- @img/sharp-linux-arm@0.35.4 — Apache-2.0
+- @img/sharp-linux-arm64@0.35.4 — Apache-2.0
+- @img/sharp-linux-ppc64@0.35.4 — Apache-2.0
+- @img/sharp-linux-riscv64@0.35.4 — Apache-2.0
+- @img/sharp-linux-s390x@0.35.4 — Apache-2.0
+- @img/sharp-linux-x64@0.35.4 — Apache-2.0
+- @img/sharp-linuxmusl-arm64@0.35.4 — Apache-2.0
+- @img/sharp-linuxmusl-x64@0.35.4 — Apache-2.0
+- @img/sharp-wasm32@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later AND MIT
+- @img/sharp-webcontainers-wasm32@0.35.4 — Apache-2.0
+- @img/sharp-win32-arm64@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later
+- @img/sharp-win32-ia32@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later
+- @img/sharp-win32-x64@0.35.4 — Apache-2.0 AND LGPL-3.0-or-later
+- @next/env@15.5.24 — MIT
+- @next/swc-darwin-arm64@15.5.24 — MIT
+- @next/swc-darwin-x64@15.5.24 — MIT
+- @next/swc-linux-arm64-gnu@15.5.24 — MIT
+- @next/swc-linux-arm64-musl@15.5.24 — MIT
+- @next/swc-linux-x64-gnu@15.5.24 — MIT
+- @next/swc-linux-x64-musl@15.5.24 — MIT
+- @next/swc-win32-arm64-msvc@15.5.24 — MIT
+- @next/swc-win32-x64-msvc@15.5.24 — MIT
+- @swc/helpers@0.5.15 — Apache-2.0
+- @types/debug@4.1.13 — MIT
+- @types/estree@1.0.9 — MIT
+- @types/estree-jsx@1.0.5 — MIT
+- @types/hast@3.0.5 — MIT
+- @types/mdast@4.0.4 — MIT
+- @types/ms@2.1.0 — MIT
+- @types/unist@2.0.11 — MIT
+- @types/unist@3.0.3 — MIT
+- @ungap/structured-clone@1.4.0 — ISC
+- bail@2.0.2 — MIT
+- caniuse-lite@1.0.30001810 — CC-BY-4.0
+- ccount@2.0.1 — MIT
+- character-entities@2.0.2 — MIT
+- character-entities-html4@2.1.0 — MIT
+- character-entities-legacy@3.0.0 — MIT
+- character-reference-invalid@2.0.1 — MIT
+- client-only@0.0.1 — MIT
+- clsx@2.1.1 — MIT
+- comma-separated-tokens@2.0.3 — MIT
+- debug@4.4.3 — MIT
+- decode-named-character-reference@1.3.0 — MIT
+- dequal@2.0.3 — MIT
+- detect-libc@2.1.2 — Apache-2.0
+- devlop@1.1.0 — MIT
+- escape-string-regexp@5.0.0 — MIT
+- estree-util-is-identifier-name@3.0.0 — MIT
+- extend@3.0.2 — MIT
+- framer-motion@12.43.0 — MIT
+- geist@1.7.2 — SIL OPEN FONT LICENSE
+- hast-util-to-jsx-runtime@2.3.6 — MIT
+- hast-util-whitespace@3.0.0 — MIT
+- html-url-attributes@3.0.1 — MIT
+- inline-style-parser@0.2.7 — MIT
+- is-alphabetical@2.0.1 — MIT
+- is-alphanumerical@2.0.1 — MIT
+- is-decimal@2.0.1 — MIT
+- is-hexadecimal@2.0.1 — MIT
+- is-plain-obj@4.1.0 — MIT
+- longest-streak@3.1.0 — MIT
+- lucide-react@1.34.0 — ISC
+- markdown-table@3.0.4 — MIT
+- mdast-util-find-and-replace@3.0.2 — MIT
+- mdast-util-from-markdown@2.0.3 — MIT
+- mdast-util-gfm@3.1.0 — MIT
+- mdast-util-gfm-autolink-literal@2.0.1 — MIT
+- mdast-util-gfm-footnote@2.1.0 — MIT
+- mdast-util-gfm-strikethrough@2.0.0 — MIT
+- mdast-util-gfm-table@2.0.0 — MIT
+- mdast-util-gfm-task-list-item@2.0.0 — MIT
+- mdast-util-mdx-expression@2.0.1 — MIT
+- mdast-util-mdx-jsx@3.2.0 — MIT
+- mdast-util-mdxjs-esm@2.0.1 — MIT
+- mdast-util-phrasing@4.1.0 — MIT
+- mdast-util-to-hast@13.2.1 — MIT
+- mdast-util-to-markdown@2.1.2 — MIT
+- mdast-util-to-string@4.0.0 — MIT
+- micromark@4.0.2 — MIT
+- micromark-core-commonmark@2.0.3 — MIT
+- micromark-extension-gfm@3.0.0 — MIT
+- micromark-extension-gfm-autolink-literal@2.1.0 — MIT
+- micromark-extension-gfm-footnote@2.1.0 — MIT
+- micromark-extension-gfm-strikethrough@2.1.0 — MIT
+- micromark-extension-gfm-table@2.1.1 — MIT
+- micromark-extension-gfm-tagfilter@2.0.0 — MIT
+- micromark-extension-gfm-task-list-item@2.1.0 — MIT
+- micromark-factory-destination@2.0.1 — MIT
+- micromark-factory-label@2.0.1 — MIT
+- micromark-factory-space@2.0.1 — MIT
+- micromark-factory-title@2.0.1 — MIT
+- micromark-factory-whitespace@2.0.1 — MIT
+- micromark-util-character@2.1.1 — MIT
+- micromark-util-chunked@2.0.1 — MIT
+- micromark-util-classify-character@2.0.1 — MIT
+- micromark-util-combine-extensions@2.0.1 — MIT
+- micromark-util-decode-numeric-character-reference@2.0.2 — MIT
+- micromark-util-decode-string@2.0.1 — MIT
+- micromark-util-encode@2.0.1 — MIT
+- micromark-util-html-tag-name@2.0.1 — MIT
+- micromark-util-normalize-identifier@2.0.1 — MIT
+- micromark-util-resolve-all@2.0.1 — MIT
+- micromark-util-sanitize-uri@2.0.1 — MIT
+- micromark-util-subtokenize@2.1.0 — MIT
+- micromark-util-symbol@2.0.1 — MIT
+- micromark-util-types@2.0.2 — MIT
+- motion@12.43.0 — MIT
+- motion-dom@12.43.0 — MIT
+- motion-utils@12.39.0 — MIT
+- ms@2.1.3 — MIT
+- nanoid@3.3.18 — MIT
+- next@15.5.24 — MIT
+- ogl@1.0.11 — Unlicense
+- parse-entities@4.0.2 — MIT
+- picocolors@1.1.1 — ISC
+- postcss@8.4.31 — MIT
+- property-information@7.2.0 — MIT
+- react@19.2.8 — MIT
+- react-dom@19.2.8 — MIT
+- react-markdown@10.1.0 — MIT
+- remark-gfm@4.0.1 — MIT
+- remark-parse@11.0.0 — MIT
+- remark-rehype@11.1.2 — MIT
+- remark-stringify@11.0.0 — MIT
+- scheduler@0.27.0 — MIT
+- semver@7.8.5 — ISC
+- sharp@0.35.4 — Apache-2.0
+- source-map-js@1.2.1 — BSD-3-Clause
+- space-separated-tokens@2.0.2 — MIT
+- stringify-entities@4.0.4 — MIT
+- style-to-js@1.1.21 — MIT
+- style-to-object@1.0.14 — MIT
+- styled-jsx@5.1.6 — MIT
+- tailwind-merge@3.6.0 — MIT
+- trim-lines@3.0.1 — MIT
+- trough@2.2.0 — MIT
+- tslib@2.8.1 — 0BSD
+- unified@11.0.5 — MIT
+- unist-util-is@6.0.1 — MIT
+- unist-util-position@5.0.0 — MIT
+- unist-util-stringify-position@4.0.0 — MIT
+- unist-util-visit@5.1.0 — MIT
+- unist-util-visit-parents@6.0.2 — MIT
+- vfile@6.0.3 — MIT
+- vfile-message@4.0.3 — MIT
+- zwitch@2.0.4 — MIT
+
+## Desktop app (Rust crates)
+
+591 crates from crates.io. Cargo.lock does not record licenses. To produce the full license texts for a release, run `cargo install cargo-about` then `cargo about generate about.hbs > rust-licenses.html` in src-tauri, and ship that file with the installer.
+
+- adler2 2.0.1
+- aho-corasick 1.1.4
+- alloc-no-stdlib 2.0.4
+- alloc-stdlib 0.2.2
+- android_system_properties 0.1.5
+- anyhow 1.0.100
+- arbitrary 1.4.2
+- ashpd 0.11.0
+- async-broadcast 0.7.2
+- async-channel 2.5.0
+- async-compression 0.4.42
+- async-executor 1.13.3
+- async-io 2.6.0
+- async-lock 3.4.2
+- async-process 2.5.0
+- async-recursion 1.1.1
+- async-signal 0.2.13
+- async-task 4.7.1
+- async-trait 0.1.89
+- atk 0.18.2
+- atk-sys 0.18.2
+- atomic-waker 1.1.2
+- autocfg 1.5.0
+- base64 0.21.7
+- base64 0.22.1
+- bit-set 0.8.0
+- bit-vec 0.8.0
+- bitflags 1.3.2
+- bitflags 2.13.1
+- block-buffer 0.10.4
+- block2 0.6.2
+- blocking 1.6.2
+- brotli 8.0.2
+- brotli-decompressor 5.0.0
+- bumpalo 3.19.1
+- bytemuck 1.24.0
+- byteorder 1.5.0
+- bytes 1.11.0
+- cairo-rs 0.18.5
+- cairo-sys-rs 0.18.2
+- camino 1.2.2
+- cargo_metadata 0.19.2
+- cargo_toml 0.22.3
+- cargo-platform 0.1.9
+- cc 1.2.51
+- cesu8 1.1.0
+- cfb 0.7.3
+- cfg-expr 0.15.8
+- cfg-if 1.0.4
+- chrono 0.4.42
+- combine 4.6.7
+- compression-codecs 0.4.38
+- compression-core 0.4.32
+- concurrent-queue 2.5.0
+- convert_case 0.4.0
+- cookie 0.18.1
+- core-foundation 0.10.1
+- core-foundation-sys 0.8.7
+- core-graphics 0.25.0
+- core-graphics-types 0.2.0
+- cpufeatures 0.2.17
+- crc32fast 1.5.0
+- crossbeam-channel 0.5.15
+- crossbeam-utils 0.8.21
+- crypto-common 0.1.7
+- cssparser 0.29.6
+- cssparser 0.34.0
+- cssparser 0.36.0
+- cssparser-macros 0.6.1
+- ctor 0.8.0
+- ctor-proc-macro 0.0.7
+- darling 0.21.3
+- darling_core 0.21.3
+- darling_macro 0.21.3
+- dbus 0.9.12
+- deranged 0.5.5
+- derive_arbitrary 1.4.2
+- derive_more 0.99.20
+- derive_more 2.1.1
+- derive_more-impl 2.1.1
+- digest 0.10.7
+- dirs 6.0.0
+- dirs-sys 0.5.0
+- dispatch2 0.3.0
+- displaydoc 0.2.5
+- dlib 0.5.2
+- dlopen2 0.8.2
+- dlopen2_derive 0.4.3
+- dom_query 0.27.0
+- downcast-rs 1.2.1
+- dpi 0.1.2
+- dtoa 1.0.11
+- dtoa-short 0.3.5
+- dtor 0.3.0
+- dtor-proc-macro 0.0.6
+- dunce 1.0.5
+- dyn-clone 1.0.20
+- ego-tree 0.10.0
+- embed_plist 1.2.2
+- embed-resource 3.0.6
+- endi 1.1.1
+- enumflags2 0.7.12
+- enumflags2_derive 0.7.12
+- equivalent 1.0.2
+- erased-serde 0.4.9
+- errno 0.3.14
+- event-listener 5.4.1
+- event-listener-strategy 0.5.4
+- fastrand 2.3.0
+- fdeflate 0.3.7
+- field-offset 0.3.6
+- filetime 0.2.26
+- find-msvc-tools 0.1.6
+- flate2 1.1.5
+- fnv 1.0.7
+- foldhash 0.2.0
+- foreign-types 0.3.2
+- foreign-types 0.5.0
+- foreign-types-macros 0.2.3
+- foreign-types-shared 0.1.1
+- foreign-types-shared 0.3.1
+- form_urlencoded 1.2.2
+- futf 0.1.5
+- futures-channel 0.3.31
+- futures-core 0.3.31
+- futures-executor 0.3.31
+- futures-io 0.3.31
+- futures-lite 2.6.1
+- futures-macro 0.3.31
+- futures-sink 0.3.31
+- futures-task 0.3.31
+- futures-util 0.3.31
+- fxhash 0.2.1
+- gdk 0.18.2
+- gdk-pixbuf 0.18.5
+- gdk-pixbuf-sys 0.18.0
+- gdk-sys 0.18.2
+- gdkwayland-sys 0.18.2
+- gdkx11 0.18.2
+- gdkx11-sys 0.18.2
+- generic-array 0.14.7
+- gethostname 1.1.0
+- getopts 0.2.24
+- getrandom 0.1.16
+- getrandom 0.2.16
+- getrandom 0.3.4
+- gio 0.18.4
+- gio-sys 0.18.1
+- glib 0.18.5
+- glib-macros 0.18.5
+- glib-sys 0.18.1
+- glob 0.3.3
+- global-hotkey 0.8.0
+- gobject-sys 0.18.0
+- gtk 0.18.2
+- gtk-sys 0.18.2
+- gtk3-macros 0.18.2
+- hashbrown 0.12.3
+- hashbrown 0.16.1
+- heck 0.4.1
+- heck 0.5.0
+- hermit-abi 0.5.2
+- hex 0.4.3
+- html5ever 0.29.1
+- html5ever 0.38.0
+- http 1.4.0
+- http-body 1.0.1
+- http-body-util 0.1.3
+- http-range 0.1.5
+- httparse 1.10.1
+- hyper 1.8.1
+- hyper-rustls 0.27.7
+- hyper-tls 0.6.0
+- hyper-util 0.1.19
+- iana-time-zone 0.1.64
+- iana-time-zone-haiku 0.1.2
+- ico 0.5.0
+- icu_collections 2.1.1
+- icu_locale_core 2.1.1
+- icu_normalizer 2.1.1
+- icu_normalizer_data 2.1.1
+- icu_properties 2.1.2
+- icu_properties_data 2.1.2
+- icu_provider 2.1.1
+- ident_case 1.0.1
+- idna 1.1.0
+- idna_adapter 1.2.1
+- indexmap 1.9.3
+- indexmap 2.12.1
+- infer 0.19.0
+- ipnet 2.11.0
+- iri-string 0.7.10
+- is-docker 0.2.0
+- is-wsl 0.4.0
+- itoa 1.0.17
+- javascriptcore-rs 1.1.2
+- javascriptcore-rs-sys 1.1.1
+- jni 0.21.1
+- jni 0.22.4
+- jni-macros 0.22.4
+- jni-sys 0.3.0
+- jni-sys 0.4.1
+- jni-sys-macros 0.4.1
+- js-sys 0.3.103
+- json-patch 3.0.1
+- jsonptr 0.6.3
+- keyboard-types 0.7.0
+- kuchikiki 0.8.8-speedreader
+- libappindicator 0.9.0
+- libappindicator-sys 0.9.0
+- libc 0.2.179
+- libdbus-sys 0.2.7
+- libloading 0.7.4
+- libredox 0.1.12
+- linux-raw-sys 0.11.0
+- litemap 0.8.1
+- lock_api 0.4.14
+- log 0.4.29
+- mac 0.1.1
+- markup5ever 0.14.1
+- markup5ever 0.38.0
+- match_token 0.1.0
+- matches 0.1.10
+- memchr 2.7.6
+- memoffset 0.9.1
+- mime 0.3.17
+- minisign-verify 0.2.4
+- miniz_oxide 0.8.9
+- mio 1.1.1
+- muda 0.19.3
+- native-tls 0.2.18
+- ndk 0.9.0
+- ndk-sys 0.6.0+11769913
+- new_debug_unreachable 1.0.6
+- nodrop 0.1.14
+- num_enum 0.7.5
+- num_enum_derive 0.7.5
+- num-conv 0.1.0
+- num-traits 0.2.19
+- objc2 0.6.4
+- objc2-app-kit 0.3.2
+- objc2-cloud-kit 0.3.2
+- objc2-core-data 0.3.2
+- objc2-core-foundation 0.3.2
+- objc2-core-graphics 0.3.2
+- objc2-core-image 0.3.2
+- objc2-core-location 0.3.2
+- objc2-core-text 0.3.2
+- objc2-encode 4.1.0
+- objc2-exception-helper 0.1.1
+- objc2-foundation 0.3.2
+- objc2-io-surface 0.3.2
+- objc2-osa-kit 0.3.2
+- objc2-quartz-core 0.3.2
+- objc2-ui-kit 0.3.2
+- objc2-user-notifications 0.3.2
+- objc2-web-kit 0.3.2
+- once_cell 1.21.3
+- open 5.3.3
+- openssl 0.10.81
+- openssl-macros 0.1.1
+- openssl-probe 0.2.1
+- openssl-sys 0.9.117
+- option-ext 0.2.0
+- ordered-stream 0.2.0
+- osakit 0.3.1
+- pango 0.18.3
+- pango-sys 0.18.0
+- parking 2.2.1
+- parking_lot 0.12.5
+- parking_lot_core 0.9.12
+- pathdiff 0.2.3
+- percent-encoding 2.3.2
+- phf 0.10.1
+- phf 0.11.3
+- phf 0.13.1
+- phf 0.8.0
+- phf_codegen 0.11.3
+- phf_codegen 0.13.1
+- phf_codegen 0.8.0
+- phf_generator 0.10.0
+- phf_generator 0.11.3
+- phf_generator 0.13.1
+- phf_generator 0.8.0
+- phf_macros 0.10.0
+- phf_macros 0.11.3
+- phf_macros 0.13.1
+- phf_shared 0.10.0
+- phf_shared 0.11.3
+- phf_shared 0.13.1
+- phf_shared 0.8.0
+- pin-project-lite 0.2.16
+- pin-utils 0.1.0
+- piper 0.2.4
+- pkg-config 0.3.32
+- plist 1.8.0
+- png 0.17.16
+- png 0.18.1
+- polling 3.11.0
+- potential_utf 0.1.4
+- powerfmt 0.2.0
+- ppv-lite86 0.2.21
+- precomputed-hash 0.1.1
+- proc-macro-crate 1.3.1
+- proc-macro-crate 2.0.2
+- proc-macro-crate 3.4.0
+- proc-macro-error 1.0.4
+- proc-macro-error-attr 1.0.4
+- proc-macro-hack 0.5.20+deprecated
+- proc-macro2 1.0.105
+- quick-xml 0.38.4
+- quote 1.0.43
+- r-efi 5.3.0
+- rand 0.7.3
+- rand 0.8.5
+- rand 0.9.2
+- rand_chacha 0.2.2
+- rand_chacha 0.3.1
+- rand_chacha 0.9.0
+- rand_core 0.5.1
+- rand_core 0.6.4
+- rand_core 0.9.3
+- rand_hc 0.2.0
+- rand_pcg 0.2.1
+- raw-window-handle 0.6.2
+- redox_syscall 0.5.18
+- redox_syscall 0.7.0
+- redox_users 0.5.2
+- ref-cast 1.0.25
+- ref-cast-impl 1.0.25
+- regex 1.12.2
+- regex-automata 0.4.13
+- regex-syntax 0.8.8
+- reqwest 0.12.28
+- reqwest 0.13.4
+- rfd 0.15.4
+- ring 0.17.14
+- rustc_version 0.4.1
+- rustc-hash 2.1.1
+- rustix 1.1.3
+- rustls 0.23.36
+- rustls-native-certs 0.8.4
+- rustls-pki-types 1.13.2
+- rustls-platform-verifier 0.7.0
+- rustls-platform-verifier-android 0.1.1
+- rustls-webpki 0.103.8
+- rustversion 1.0.22
+- ryu 1.0.22
+- same-file 1.0.6
+- schannel 0.1.29
+- schemars 0.8.22
+- schemars 0.9.0
+- schemars 1.2.0
+- schemars_derive 0.8.22
+- scoped-tls 1.0.1
+- scopeguard 1.2.0
+- scraper 0.23.1
+- security-framework 3.7.0
+- security-framework-sys 2.17.0
+- selectors 0.24.0
+- selectors 0.26.0
+- selectors 0.36.1
+- semver 1.0.27
+- serde 1.0.228
+- serde_core 1.0.228
+- serde_derive 1.0.228
+- serde_derive_internals 0.29.1
+- serde_json 1.0.149
+- serde_repr 0.1.20
+- serde_spanned 0.6.9
+- serde_spanned 1.0.4
+- serde_urlencoded 0.7.1
+- serde_with 3.16.1
+- serde_with_macros 3.16.1
+- serde-untagged 0.1.9
+- serialize-to-javascript 0.1.2
+- serialize-to-javascript-impl 0.1.2
+- servo_arc 0.2.0
+- servo_arc 0.4.3
+- sha2 0.10.9
+- shlex 1.3.0
+- signal-hook-registry 1.4.8
+- simd_cesu8 1.2.0
+- simd-adler32 0.3.8
+- simdutf8 0.1.5
+- siphasher 0.3.11
+- siphasher 1.0.1
+- slab 0.4.11
+- smallvec 1.15.1
+- socket2 0.6.1
+- softbuffer 0.4.8
+- soup3 0.5.0
+- soup3-sys 0.5.0
+- stable_deref_trait 1.2.1
+- string_cache 0.8.9
+- string_cache 0.9.0
+- string_cache_codegen 0.5.4
+- string_cache_codegen 0.6.1
+- strsim 0.11.1
+- subtle 2.6.1
+- swift-rs 1.0.7
+- syn 1.0.109
+- syn 2.0.114
+- sync_wrapper 1.0.2
+- synstructure 0.13.2
+- system-deps 6.2.2
+- tao 0.35.3
+- tao-macros 0.1.3
+- tar 0.4.44
+- target-lexicon 0.12.16
+- tauri 2.11.5
+- tauri-build 2.6.3
+- tauri-codegen 2.6.3
+- tauri-macros 2.6.3
+- tauri-plugin 2.5.2
+- tauri-plugin-dialog 2.4.2
+- tauri-plugin-fs 2.4.4
+- tauri-plugin-global-shortcut 2.3.2
+- tauri-plugin-opener 2.5.2
+- tauri-plugin-process 2.3.1
+- tauri-plugin-updater 2.10.1
+- tauri-runtime 2.11.3
+- tauri-runtime-wry 2.11.4
+- tauri-utils 2.9.3
+- tauri-winres 0.3.5
+- tempfile 3.24.0
+- tendril 0.4.3
+- tendril 0.5.1
+- thiserror 1.0.69
+- thiserror 2.0.17
+- thiserror-impl 1.0.69
+- thiserror-impl 2.0.17
+- time 0.3.44
+- time-core 0.1.6
+- time-macros 0.2.24
+- tinystr 0.8.2
+- tokio 1.49.0
+- tokio-native-tls 0.3.1
+- tokio-rustls 0.26.4
+- tokio-util 0.7.18
+- toml 0.8.2
+- toml 0.9.10+spec-1.1.0
+- toml_datetime 0.6.3
+- toml_datetime 0.7.5+spec-1.1.0
+- toml_edit 0.19.15
+- toml_edit 0.20.2
+- toml_edit 0.23.10+spec-1.0.0
+- toml_parser 1.0.6+spec-1.1.0
+- toml_writer 1.0.6+spec-1.1.0
+- tower 0.5.2
+- tower-http 0.6.8
+- tower-layer 0.3.3
+- tower-service 0.3.3
+- tracing 0.1.44
+- tracing-attributes 0.1.31
+- tracing-core 0.1.36
+- trash 5.2.6
+- tray-icon 0.24.1
+- try-lock 0.2.5
+- typeid 1.0.3
+- typenum 1.19.0
+- uds_windows 1.1.0
+- unic-char-property 0.9.0
+- unic-char-range 0.9.0
+- unic-common 0.9.0
+- unic-ucd-ident 0.9.0
+- unic-ucd-version 0.9.0
+- unicode-ident 1.0.22
+- unicode-segmentation 1.12.0
+- unicode-width 0.2.2
+- untrusted 0.9.0
+- url 2.5.8
+- urlencoding 2.1.3
+- urlpattern 0.3.0
+- utf-8 0.7.6
+- utf8_iter 1.0.4
+- uuid 1.19.0
+- vcpkg 0.2.15
+- version_check 0.9.5
+- version-compare 0.2.1
+- vswhom 0.1.0
+- vswhom-sys 0.1.3
+- walkdir 2.5.0
+- want 0.3.1
+- wasi 0.11.1+wasi-snapshot-preview1
+- wasi 0.9.0+wasi-snapshot-preview1
+- wasip2 1.0.1+wasi-0.2.4
+- wasm-bindgen 0.2.126
+- wasm-bindgen-futures 0.4.76
+- wasm-bindgen-macro 0.2.126
+- wasm-bindgen-macro-support 0.2.126
+- wasm-bindgen-shared 0.2.126
+- wasm-streams 0.5.0
+- wayland-backend 0.3.12
+- wayland-client 0.31.12
+- wayland-protocols 0.32.10
+- wayland-scanner 0.31.8
+- wayland-sys 0.31.8
+- web_atoms 0.2.5
+- web-sys 0.3.103
+- webkit2gtk 2.0.2
+- webkit2gtk-sys 2.0.2
+- webpki-root-certs 1.0.8
+- webview2-com 0.38.0
+- webview2-com-macros 0.8.0
+- webview2-com-sys 0.38.0
+- winapi 0.3.9
+- winapi-i686-pc-windows-gnu 0.4.0
+- winapi-util 0.1.11
+- winapi-x86_64-pc-windows-gnu 0.4.0
+- window-vibrancy 0.6.0
+- windows 0.56.0
+- windows 0.61.3
+- windows_aarch64_gnullvm 0.42.2
+- windows_aarch64_gnullvm 0.52.6
+- windows_aarch64_gnullvm 0.53.1
+- windows_aarch64_msvc 0.42.2
+- windows_aarch64_msvc 0.52.6
+- windows_aarch64_msvc 0.53.1
+- windows_i686_gnu 0.42.2
+- windows_i686_gnu 0.52.6
+- windows_i686_gnu 0.53.1
+- windows_i686_gnullvm 0.52.6
+- windows_i686_gnullvm 0.53.1
+- windows_i686_msvc 0.42.2
+- windows_i686_msvc 0.52.6
+- windows_i686_msvc 0.53.1
+- windows_x86_64_gnu 0.42.2
+- windows_x86_64_gnu 0.52.6
+- windows_x86_64_gnu 0.53.1
+- windows_x86_64_gnullvm 0.42.2
+- windows_x86_64_gnullvm 0.52.6
+- windows_x86_64_gnullvm 0.53.1
+- windows_x86_64_msvc 0.42.2
+- windows_x86_64_msvc 0.52.6
+- windows_x86_64_msvc 0.53.1
+- windows-collections 0.2.0
+- windows-core 0.56.0
+- windows-core 0.61.2
+- windows-future 0.2.1
+- windows-implement 0.56.0
+- windows-implement 0.60.2
+- windows-interface 0.56.0
+- windows-interface 0.59.3
+- windows-link 0.1.3
+- windows-link 0.2.1
+- windows-numerics 0.2.0
+- windows-result 0.1.2
+- windows-result 0.3.4
+- windows-strings 0.4.2
+- windows-sys 0.45.0
+- windows-sys 0.52.0
+- windows-sys 0.59.0
+- windows-sys 0.60.2
+- windows-sys 0.61.2
+- windows-targets 0.42.2
+- windows-targets 0.52.6
+- windows-targets 0.53.5
+- windows-threading 0.1.0
+- windows-version 0.1.7
+- winnow 0.5.40
+- winnow 0.7.14
+- winnow 1.0.4
+- winreg 0.55.0
+- wit-bindgen 0.46.0
+- writeable 0.6.2
+- wry 0.55.1
+- x11 2.21.0
+- x11-dl 2.21.0
+- x11rb 0.13.2
+- x11rb-protocol 0.13.2
+- xattr 1.6.1
+- xkeysym 0.2.1
+- yoke 0.8.1
+- yoke-derive 0.8.1
+- zbus 5.17.0
+- zbus_macros 5.17.0
+- zbus_names 4.3.3
+- zerocopy 0.8.32
+- zerocopy-derive 0.8.32
+- zerofrom 0.1.6
+- zerofrom-derive 0.1.6
+- zeroize 1.8.2
+- zerotrie 0.2.3
+- zerovec 0.11.5
+- zerovec-derive 0.11.2
+- zip 4.6.1
+- zmij 1.0.12
+- zvariant 5.13.0
+- zvariant_derive 5.13.0
+- zvariant_utils 3.5.0
+
+## Fonts
+
+Inter, JetBrains Mono, Fraunces, and Amiri Quran are licensed under the SIL Open Font License 1.1.
